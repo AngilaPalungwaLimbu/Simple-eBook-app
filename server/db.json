@@ -1,0 +1,116 @@
+{
+  "slides": [
+    "https://cdn.pixabay.com/photo/2015/11/19/21/11/book-1052014_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2018/01/18/20/43/literature-3091212__340.jpg",
+    "https://cdn.pixabay.com/photo/2016/09/10/17/18/book-1659717__340.jpg",
+    "https://cdn.pixabay.com/photo/2017/08/07/16/41/reading-2605540_960_720.jpg"
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Angila Limbu",
+      "email": "angila@gmail.com",
+      "password": "angila123"
+    },
+    {
+      "id": 2,
+      "name": "Asmita Limbu",
+      "email": "asmita@gmail.com",
+      "password": "asmita123"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ikigai"
+    },
+    {
+      "id": 2,
+      "name": "Good Vives"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Ikigai",
+      "price": 800,
+      "discountPercent": 20,
+      "sellingPrice": 650,
+      "description": "The Japanese Secret to a Long and Happy Life talks about the Japanese island of Okinawa and explains the various blue zones that are the reason for the longevity of its residents. The concept of Ikigai, or a deep purpose of life, is an important factor in achieving this longevity.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41SG4SO4T9L._SX351_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Rich Dad Poor Dad",
+      "price": 800,
+      "discountPercent": 0,
+      "sellingPrice": 720,
+      "description": "Rich Dad Poor Dad is Robert's story of growing up with two dads -- his real father and the father of his best friend, his rich dad -- and the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.",
+      "image": "https://pos.booksmandala.com/images/8330"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "Good Vives",
+      "price": 800,
+      "discountPercent": 10,
+      "sellingPrice": 720,
+      "description": "A beautifully designed book full of inspiring quotes and tried-and-tested wisdom on using positivity to create a life you love.How can you learn to truly love yourself? How can you transform negative emotions into positive ones?",
+      "image": "https://static-01.daraz.com.np/p/2970aabd01cf23f2ee1b77aa1c397dfa.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "itemId": 1,
+      "qty": 1,
+      "amount": 650,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "itemId": 2,
+      "qty": 2,
+      "amount": 1440,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "itemId": 3,
+      "qty": 2,
+      "amount": 1440,
+      "userId": 2,
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "userId": "2",
+      "total": 250,
+      "charge": 50,
+      "grandTotal": 300,
+      "city": "Dharan-15,Bhajoghara",
+      "StreetName": "Sayapatri Marga",
+      "contact": "9834896034",
+      "itemOrder": [
+        {
+          "itemId": 1,
+          "qty": 1,
+          "amount": 650
+        },
+        {
+          "itemId": 2,
+          "qty": 2,
+          "amount": 1440
+        },
+        {
+          "itemId": 3,
+          "qty": 2,
+          "amount": 1440
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
